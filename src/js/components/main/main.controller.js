@@ -12,11 +12,12 @@
     /*jshint validthis: true */
     this.greeting = 'Hello World!';
 
+    console.log('hi');
     var map = new google.maps.Map(document.getElementById('map_div'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-    });
-
+        center: {lat: -34.397, lng: 150.644},
+        zoom: 8
+    })
+    this.map = {};
 
   }
 })();
